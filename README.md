@@ -13,7 +13,6 @@ A full English-to-French neural machine translation pipeline combining **Encoder
 - [Project Structure](#project-structure)
 - [Setup & Installation](#setup--installation)
 - [Usage](#usage)
-- [Task Breakdown](#task-breakdown)
 - [Model Architecture](#model-architecture)
 - [Dataset](#dataset)
 - [Key Concepts](#key-concepts)
@@ -92,23 +91,6 @@ jupyter notebook NMT_Attention.ipynb
 ```
 
 ---
-
-## Task Breakdown
-
-| Task | Description | Points |
-|------|-------------|-------:|
-| Task 1 | Text cleaning, tokenisation, padding, train/test split | 15 |
-| Task 2 | Sentence length histograms & sample pair visualisation | 5 |
-| Task 3 | Build the LSTM Encoder | 15 |
-| Task 4 | Implement Bahdanau Attention from scratch | 20 |
-| Task 5 | Build the Decoder step + teacher-forcing training loop | 20 |
-| Task 6 | Custom `GradientTape` training with padding-aware loss | 10 |
-| Task 7 | Greedy inference & translation | 10 |
-| Task 8 | Attention weight heatmap visualisation | 5 |
-| **Total** | | **100** |
-
----
-
 ## Model Architecture
 
 ```
